@@ -1,0 +1,139 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="uc" name="Casos de Uso">
+    <mxGraphModel dx="1829" dy="1068" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1100" background="light-dark(#FFFFFF,#121212)" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sys" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fontStyle=1;fontSize=16;fillColor=none;strokeColor=#666666;" value="SentinelTrade" vertex="1">
+          <mxGeometry height="1000" width="860" x="180" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="UC01" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="UC-01 Cadastrar investidor" vertex="1">
+          <mxGeometry height="50" width="200" x="220" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="UC02" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="UC-02 Autenticar com MFA" vertex="1">
+          <mxGeometry height="50" width="200" x="190" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="UC03" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="UC-03 Consultar carteira" vertex="1">
+          <mxGeometry height="50" width="200" x="290" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="UC04" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="UC-04 Consultar cotacoes" vertex="1">
+          <mxGeometry height="50" width="200" x="500" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="UC05" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="UC-05 Enviar ordem" vertex="1">
+          <mxGeometry height="50" width="200" x="500" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="UC06" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="UC-06 Cancelar ordem" vertex="1">
+          <mxGeometry height="50" width="200" x="800" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="UC07" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="UC-07 Acompanhar status da ordem" vertex="1">
+          <mxGeometry height="50" width="200" x="280" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="UC08" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="UC-08 Consultar historico" vertex="1">
+          <mxGeometry height="50" width="200" x="240" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="UC09" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="UC-09 Gerir limites" vertex="1">
+          <mxGeometry height="50" width="200" x="220" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="UC10" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="UC-10 Consultar auditoria" vertex="1">
+          <mxGeometry height="50" width="200" x="220" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="UC11" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="UC-11 Validar ordem" vertex="1">
+          <mxGeometry height="50" width="200" x="800" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UC12" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="UC-12 Notificar investidor" vertex="1">
+          <mxGeometry height="50" width="200" x="800" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="UC13" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=0;" value="UC-13 Registrar auditoria" vertex="1">
+          <mxGeometry height="50" width="200" x="500" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="Inv" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;" value="Investidor" vertex="1">
+          <mxGeometry height="70" width="40" x="60" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Adm" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;" value="Administrador" vertex="1">
+          <mxGeometry height="70" width="40" x="60" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="Aud" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;" value="Auditor" vertex="1">
+          <mxGeometry height="70" width="40" x="60" y="925" as="geometry" />
+        </mxCell>
+        <mxCell id="Prov" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;" value="Provedor de cotacoes" vertex="1">
+          <mxGeometry height="70" width="40" x="1090" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Bol" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;" value="Bolsa/Corretora" vertex="1">
+          <mxGeometry height="70" width="40" x="1090" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Not" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;rounded=0;" value="Servico de notificacao" vertex="1">
+          <mxGeometry height="70" width="40" x="1090" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="nota" parent="1" style="shape=note;whiteSpace=wrap;html=1;size=14;fillColor=#fff2cc;strokeColor=#d6b656;align=left;spacingLeft=6;rounded=0;" value="Todos os casos de uso do Investidor exigem UC-02 (autenticacao com MFA)." vertex="1">
+          <mxGeometry height="70" width="250" x="760" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" edge="1" parent="1" source="Inv" style="endArrow=none;html=1;rounded=0;" target="UC02">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" edge="1" parent="1" source="Inv" style="endArrow=none;html=1;rounded=0;" target="UC03">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a3" edge="1" parent="1" source="Inv" style="endArrow=none;html=1;rounded=0;" target="UC04">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a4" edge="1" parent="1" source="Inv" style="endArrow=none;html=1;rounded=0;" target="UC05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a5" edge="1" parent="1" source="Inv" style="endArrow=none;html=1;rounded=0;" target="UC06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a6" edge="1" parent="1" source="Inv" style="endArrow=none;html=1;rounded=0;" target="UC07">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a7" edge="1" parent="1" source="Inv" style="endArrow=none;html=1;rounded=0;" target="UC08">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a8" edge="1" parent="1" source="Adm" style="endArrow=none;html=1;rounded=0;" target="UC01">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a9" edge="1" parent="1" source="Adm" style="endArrow=none;html=1;rounded=0;" target="UC09">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a10" edge="1" parent="1" source="Aud" style="endArrow=none;html=1;rounded=0;" target="UC10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a11" edge="1" parent="1" source="Prov" style="endArrow=none;html=1;rounded=0;" target="UC04">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a12" edge="1" parent="1" source="Bol" style="endArrow=none;html=1;rounded=0;" target="UC05">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a13" edge="1" parent="1" source="Bol" style="endArrow=none;html=1;rounded=0;" target="UC06">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a14" edge="1" parent="1" source="Not" style="endArrow=none;html=1;rounded=0;" target="UC12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i15" edge="1" parent="1" source="UC05" style="endArrow=open;endFill=0;dashed=1;html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;" target="UC11" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i16" edge="1" parent="1" source="UC05" style="endArrow=open;endFill=0;dashed=1;html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;" target="UC13" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i17" edge="1" parent="1" source="UC05" style="endArrow=open;endFill=0;dashed=1;html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;" target="UC12" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i18" edge="1" parent="1" source="UC06" style="endArrow=open;endFill=0;dashed=1;html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;" target="UC13" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i19" edge="1" parent="1" source="UC06" style="endArrow=open;endFill=0;dashed=1;html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;" target="UC12" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i20" edge="1" parent="1" source="UC09" style="endArrow=open;endFill=0;dashed=1;html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;" target="UC13" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i21" edge="1" parent="1" source="UC01" style="endArrow=open;endFill=0;dashed=1;html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;" target="UC13" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i22" edge="1" parent="1" source="UC02" style="endArrow=open;endFill=0;dashed=1;html=1;rounded=0;fontSize=10;labelBackgroundColor=#ffffff;" target="UC13" value="&lt;&lt;include&gt;&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
